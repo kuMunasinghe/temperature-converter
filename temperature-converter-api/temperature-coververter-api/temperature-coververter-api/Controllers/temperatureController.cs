@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,76 +11,68 @@ using temperature_coververter_api.Models;
 
 namespace temperature_coververter_api.Controllers
 {
+
     public class temperatureController : ApiController
     {
-        // GET api/values
-        public IActionResult ConvertTemperatures(int caseValue, int valueToConvert)
+        [EnableCors()]
+        [HttpGet]
+        [Route("{caseValue}/{valueToConvert}")]
+        public double ConvertTemperatures(int caseValue, int valueToConvert)
         {
             try
             {
                 Temperature temp = new Temperature();
-
+                double convertedValue = 0;
 
                 switch (caseValue)
                 {
+                    
                     case 1:
                         // case 1 C to F                     
-                        return (IActionResult)Ok(temp.ConvertCelciusToFaranheit(valueToConvert));
-                        break;
+                        convertedValue=temp.ConvertCelciusToFaranheit(valueToConvert);
+                        return convertedValue;
+                  
                     case 2:
                         // code 2 C to K
-                        return (IActionResult)Ok(temp.ConvertCelciusToKelvin(valueToConvert));
-                        break;
+                        convertedValue = temp.ConvertCelciusToKelvin(valueToConvert);
+                        return convertedValue;
 
                     case 3:
                         // case 3 F to C
-                        return (IActionResult)Ok(temp.ConvertFaranheitToCelcius(valueToConvert));
-                        break;
+                        convertedValue = temp.ConvertFaranheitToCelcius(valueToConvert);
+                        return convertedValue;
+
                     case 4:
                         // case 4 F to K
-                        return (IActionResult)Ok(temp.ConvertFaranheitToKelvin(valueToConvert));
-                        break;
+                        convertedValue = temp.ConvertFaranheitToKelvin(valueToConvert);
+                        return convertedValue;
+
                     case 5:
                         // case 5 K to C
-                        return (IActionResult)Ok(temp.ConvertKelvinToCelcius(valueToConvert));
-                        break;
+                        convertedValue = temp.ConvertKelvinToCelcius(valueToConvert);
+                        return convertedValue;
+
                     case 6:
                         // case 6 K to F
-                        return (IActionResult)Ok(temp.ConvertKelvinToFaranheit(valueToConvert));
-                        break;
+                        convertedValue = temp.ConvertKelvinToFaranheit(valueToConvert);
+                        return convertedValue;
 
                     default:
-                        // code block
-                        return (IActionResult)Ok(temp.ConvertCelciusToFaranheit(valueToConvert));
-                        break;
+                        // default code block
+                        convertedValue = temp.ConvertCelciusToFaranheit(valueToConvert);
+                        return convertedValue;
+
                 }
 
                 
             } catch(Exception ex) {
-                return HttpError(500);  
+                return Convert.ToDouble(HttpError(500));
             }
         }
 
-        private IActionResult HttpError(int v)
+        private object HttpError(int v)
         {
             throw new NotImplementedException();
-        }
-
-
-
-        // POST api/values
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/values/5
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        public void Delete(int id)
-        {
         }
     }
 }

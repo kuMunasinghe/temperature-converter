@@ -1,0 +1,78 @@
+<div class="jumbotron text-center">
+    <h1 class="display-5">
+        Temperature Converter Angular Application
+    </h1>
+</div>
+
+<div class="container">
+    <div class="row custom-wrapper">
+        <div class="col-md-12">
+
+            <form [formGroup]="tempratureForm" (ngSubmit)="onSubmit()">
+
+                <div class="group-gap">
+                    <h5 class="mb-3">Temperature type</h5>
+                    <div class="d-block my-3">
+
+                        <div class="custom-control custom-radio">
+                            <input id="Celcius to Faranheit" type="radio" class="custom-control-input" value=1
+                                name="temperature" formControlName="temperature">
+                            <label class="custom-control-label" for="Celcius to Faranheit">Celcius to Faranheit</label>
+                        </div>
+
+                        <div class="custom-control custom-radio">
+                            <input id="Celcius to Kelvin" type="radio" class="custom-control-input" value=2
+                                name="temperature" formControlName="temperature">
+                            <label class="custom-control-label" for="Celcius to Kelvin">Celcius to Kelvin</label>
+                        </div>
+
+                        <div class="custom-control custom-radio">
+                            <input id="Faranheit to Celcius" type="radio" class="custom-control-input" value=3
+                                name="temperature" formControlName="temperature">
+                            <label class="custom-control-label" for="Faranheit to Celcius">Faranheit to Celcius</label>
+                        </div>
+
+                        <div class="custom-control custom-radio">
+                            <input id="Faranheit to Kelvin" type="radio" class="custom-control-input" value=4
+                                name="temperature" formControlName="temperature">
+                            <label class="custom-control-label" for="Faranheit to Kelvin">Faranheit to Kelvin</label>
+                        </div>
+
+                        <div class="custom-control custom-radio">
+                            <input id="Kelvin to Celcius" type="radio" class="custom-control-input" value=5
+                                name="temperature" formControlName="temperature">
+                            <label class="custom-control-label" for="Kelvin to Celcius">Kelvin to Celcius</label>
+                        </div>
+
+                        <div class="custom-control custom-radio">
+                            <input id="Kelvin to Faranheit" type="radio" class="custom-control-input" value=6
+                                name="temperature" formControlName="temperature">
+                            <label class="custom-control-label" for="Kelvin to Faranheit">Kelvin to Faranheit</label>
+                        </div>
+
+                        <div class="custom-control">
+                            <div>
+                                <label>Enter temperature value to Convert :</label>
+                                <input id="temperature-input" type="number" formControlName="temperatureInput" #temp>
+                            </div>
+                        </div>
+
+                        <div *ngIf="convertedValue" class="custom-control">
+                            <div>
+                                <label> Convert value : {{convertedValue}}</label>
+                            </div>
+                        </div>
+
+                        <div class="invalid-feedback" *ngIf="isSubmitted && myForm.errors?.required">
+                            <p>Please select either value</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <button type="submit" class="btn btn-danger btn-lg btn-block">Submit</button>
+            </form>
+
+        </div>
+    </div>
+</div>
