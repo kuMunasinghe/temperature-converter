@@ -1,5 +1,7 @@
 # temperature-converter
-temperature converter application 
+Sample temperature converter application to convert temperature from Celcius ,Faranheit , Kelvin.
+
+Developed using .Net Core 3.1 and Angular version 9.
 
 #start web API by setting it as the start up project.
 
