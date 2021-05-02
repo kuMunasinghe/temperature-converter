@@ -14,7 +14,17 @@ In ortder run the Angular Web APP local clone the repo and proceed with npm inst
 
 PS : Didnt add Authentication bearer token for the API because it is POC level implementations. Minimum level MVP product is being implemented.
 
-Please find the application hosted URL below :
+Application hosted URL - https://angular-temperature-converter.web.app/
 
-Hosted URL - https://angular-temperature-converter.web.app/
+Developed by:
+Selaka Nanayakkara
+Contributor - <a href="https://stackoverflow.com/users/4672460/selaka-nanayakkara?tab=profile" target="_blank"><img src="" alt="">Stackoverflow</a>
+<a href="https://www.linkedin.com/in/selaka-nanayakkara-7b0a4a56/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://www.facebook.com/profile.php?id=100002950452810" target="_blank"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?&style=flat-square&logo=facebook&logoColor=white" alt="Facebook"></a>
+<a href="https://www.instagram.com/selaa.online/" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
+<br>
 
+
+
+![Selaka's github stats](https://github-readme-stats.vercel.app/api?username=SelakaKithmal&count_private=true&show_icons=true&include_all_commits=true)<br>
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SelakaKithmal&layout=compact)
