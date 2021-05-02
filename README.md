@@ -1,4 +1,4 @@
-# Sample Temperature-Converter Application Hosted in Azure
+# **Sample Temperature-Converter Application Hosted in Azure**
 Sample temperature converter application to convert temperature from Celcius ,Faranheit , Kelvin.
 Developed using .NET Core 3.1 WebAPI + Angular 9
 
@@ -16,8 +16,8 @@ PS : Didnt add Authentication bearer token for the API because it is POC level i
 
 Application hosted URL - https://angular-temperature-converter.web.app/
 
-Developed by:
-Selaka Nanayakkara
+Developed by :
+**Selaka Nanayakkara**
 
 <a href="https://www.linkedin.com/in/selaka-nanayakkara-7b0a4a56/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="https://www.facebook.com/profile.php?id=100002950452810" target="_blank"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?&style=flat-square&logo=facebook&logoColor=white" alt="Facebook"></a> <a href="https://www.instagram.com/selaa.online/" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
 
