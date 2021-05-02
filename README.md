@@ -4,7 +4,7 @@ Sample temperature converter application to convert temperature from Celcius ,Fa
 Developed using .Net Core 3.1 and Angular version 9.
 
 
-![image](https://user-images.githubusercontent.com/22972311/116810240-59fe9a00-ab60-11eb-9b93-4b1fe9793af7.png)
+![image](https://user-images.githubusercontent.com/22972311/116810359-fc1e8200-ab60-11eb-812b-76261cfa5397.png)
 
 
 Start web API by setting it as the start up project.
