@@ -5,6 +5,9 @@ Developed using .NET Core 3.1 WebAPI + Angular 9
 
 ![image](https://user-images.githubusercontent.com/22972311/116810359-fc1e8200-ab60-11eb-812b-76261cfa5397.png)
 
+![image](https://user-images.githubusercontent.com/22972311/116816583-22074f00-ab80-11eb-8128-f701e21a217b.png)
+
+
 
 In order to run the Web API Start web API by setting it as the start up project.
 
