@@ -9,15 +9,19 @@ Developed using .NET Core 3.1 WebAPI + Angular 9
 
 
 
-In order to run the Web API Start web API by setting it as the start up project.
+In order to run the Web API locally Start the Web API by setting it as the start up project in Visual Studio.
 
 Get the URL which it is beeing running and replace the base url of the temperature-converter-service.ts in Angular Application
 
-In ortder run the Angular Web APP local clone the repo and proceed with npm install and npm start.
+In order run the Angular Web APP locally clone the repo and proceed with npm install and npm start.
 
 PS : Didnt add Authentication bearer token for the API because it is POC level implementations. Minimum level MVP product is being implemented.
 
 Application hosted URL - https://angular-temperature-converter.web.app/
+
+Angular 9 Web App Hosted -  Firebase
+
+.Net Core Web API Hosted -  Azure Active Directory
 
 Developed by :
 **Selaka Nanayakkara**
