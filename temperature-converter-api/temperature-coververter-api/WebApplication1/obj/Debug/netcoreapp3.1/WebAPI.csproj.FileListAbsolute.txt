@@ -37,3 +37,23 @@ D:\OPEN SOURCE\New folder\temperature-converter\temperature-converter-api\temper
 D:\OPEN SOURCE\New folder\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\obj\Debug\netcoreapp3.1\WebAPI.dll
 D:\OPEN SOURCE\New folder\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\obj\Debug\netcoreapp3.1\WebAPI.pdb
 D:\OPEN SOURCE\New folder\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.json
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\bin\Debug\netcoreapp3.1\WebAPI.StaticWebAssets.xml
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\bin\Debug\netcoreapp3.1\WebAPI.exe
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\bin\Debug\netcoreapp3.1\WebAPI.deps.json
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\bin\Debug\netcoreapp3.1\WebAPI.runtimeconfig.json
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\bin\Debug\netcoreapp3.1\WebAPI.runtimeconfig.dev.json
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\bin\Debug\netcoreapp3.1\WebAPI.dll
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\bin\Debug\netcoreapp3.1\WebAPI.pdb
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\obj\Debug\netcoreapp3.1\WebAPI.csproj.AssemblyReference.cache
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\obj\Debug\netcoreapp3.1\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfoInputs.cache
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfo.cs
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\obj\Debug\netcoreapp3.1\WebAPI.RazorTargetAssemblyInfo.cache
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\obj\Debug\netcoreapp3.1\WebAPI.dll
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\obj\Debug\netcoreapp3.1\WebAPI.pdb
+E:\Projects\temperature-converter\temperature-converter-api\temperature-coververter-api\WebApplication1\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache

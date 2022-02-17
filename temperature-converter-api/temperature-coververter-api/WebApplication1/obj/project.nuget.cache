@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "pgPtrGGzGfci6O3DkXUehDe7RJFLDOEP9giAI21TmDpq1KTMeEuXJM++4VRnn/G8+l+k29uDNJFLuthYuTQIgA==",
+  "dgSpecHash": "teI6VvJgAuxPLjzO96gEHndu+ZMLRkUNbVRb4/XXO52NyTNMaKTx7B9hTzY65f+xwtXFM4eb8LTzlONMohxUiA==",
   "success": true,
-  "projectFilePath": "D:\\OPEN SOURCE\\New folder\\temperature-converter\\temperature-converter-api\\temperature-coververter-api\\WebApplication1\\WebAPI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\Projects\\temperature-converter\\temperature-converter-api\\temperature-coververter-api\\WebApplication1\\WebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kasun\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
+    "C:\\Users\\kasun\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\kasun\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\kasun\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
